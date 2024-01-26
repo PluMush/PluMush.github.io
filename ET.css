@@ -48,7 +48,6 @@ p {
     border-color: #A6D16C;
     border-radius: 12px;
     padding: none;
-    position: absolute;
     margin-left: 30px;
     margin-top: 40px;
 }
@@ -90,3 +89,4 @@ p {
     margin-top: -220px;
 }
 .main{height: 100vh;}
+.project2{justify-content: space-between;}
