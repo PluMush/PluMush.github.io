@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,33 +8,79 @@
     <link rel="stylesheet" href="nav.css">
     <link rel="stylesheet" href="ET.css">
 </head>
+
 <body>
-    <div class ="header">
+    <div class="header">
         <h1>Engineering & Technology</h1>
     </div>
-    <div class ="nav">
-        <ul>
-            <li class="navbut"><a href="index.html">Home</a></li>
-            <li class="navbut"><a href="about.html">About Me</a></li>
-            <li class="navbut"><a href="subject.html">Subjects</a></li>
-        </ul> 
+    <div class ="navbar">
+        <a href="index.html">Home</a>
+        <a href="about.html">About Me</a>
+        <div class="dropdown">
+            <button class="dropbtn">Subjects 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+              <a href="Science.html">Science</a>
+              <a href="ET.html">Engineering</a>
+              <a href="Art.html">Art</a>
+              <a href="ELA.html">English</a>
+            </div>
+          </div> 
     </div>
-    
-    <div class ="main">
-        <div class ="project1">
+    <div class="main">
+
+        <div class="project1">
             <img id="imageone" src="project1.png" height="300px">
-            <h3 id="ASP">AI Storybook Project</h3>
-            <p>I used AI to write and illustrate this storybook! I learned that it is important to prompt your AI correctly in order to get the results you want. </p>
+            <div class="text1">
+                <h3 id="ASP">AI Storybook Project</h3>
+                <p id="Story">I used text and image generating AI to write and illustrate this storybook! I learned to prompt the
+                    AI correctly in order to get the results I wanted. The AI would prioritize the words at the
+                    beginning than the ones closer to the end. I struggled with getting the right images the most,
+                    sometimes the AI would generate one thing right but the other would be wrong. The easiest part of
+                    this project would be generating the text I want.</p>
+            </div>
         </div>
-        <div class ="project2">
+
+        <div class="project2">
             <img id="imagetwo" src="project2.png" height="300px">
             <div class="p2text">
-            <h3 id="LCP">LED Cube Project</h3>
-            <p id="Cube">I used TinkerCAD to make this 3x3x3 LED cube. I learned how to use circuits and the basics of C++. This project was for the 2022 Science Fair.</p>
+                <h3 id="LCP">LED Cube Project</h3>
+                <p id="Cube">I used TinkerCAD to make this 3x3x3 LED cube. TinkerCAD is a program that allows you to
+                    create 3D objects, test physics, test circuits, and 3d print your creations. I first had to learn
+                    how energy flows in a circuit, basic parts of a circuit, and basic C++ coding. When turned on, the
+                    LEDs should make different patterns by turning on or off specific LEDs. If I were to do this project
+                    again, I would brainstorm more ideas on how I want the LEDs to light up.</p>
+            </div>
+        </div>
+        
+        <div class="project3">
+            <img id="imagethree" src="spherorvr.jpeg" height="300px">
+            <div class="p3text">
+                <h3 id="SOC">Sphero Obstacle Course</h3>
+                <p id="Obstacle">For the Sphero Obstacle Course, we combined everyone’s ideas together to create one big
+                    course for the Sphero RVR. Sphero RVR is a programmable robot car that allows you to be creative. We
+                    tested it multiple times and took measurements to be accurate as much as possible. It was enjoyable
+                    to see others’ ideas. We made our ideas by using cardboard, VEX pieces, and other supplies.</p>
+            </div>
+        </div>
+
+        <div class="project4">
+            <img id="imagefour" src="image4.png" height="300px">
+            <div class="p4text">
+                <h3 id="CMW">Cardboard Microbit Worm</h3>
+                <p id="Microbit">Our goal for this project was to make a moving worm using TinkerCAD and Micro:bit. My
+                    partner and I worked together on TinkerCAD to make the 3D pieces needed. We had to watch a video on
+                    hinges so we wouldn’t make a mistake and need to print again. Taking measurements was also pretty
+                    important for the hinges. When it was printed, unfortunately, our worm was a pretty small size
+                    compared to the others. So, the weight of the Micro:bit and the servo slowed down the worm and made
+                    it harder to move. We would have changed the overall size to a larger one if we could improve it.
+                </p>
             </div>
         </div>
     </div>
 
-    <div class ="footer"></div>
+    <div class="footer"></div>
 </body>
+
 </html>
